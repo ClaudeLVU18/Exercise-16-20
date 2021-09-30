@@ -135,7 +135,7 @@ int main()
     double grd;
     cin >> grd;
 
-    if (grd > 10.0)
+    if ((grd > 10.0) || (grd == 10.0))
     {
         cout << "\nMeteoric level.\n\n";
     }
